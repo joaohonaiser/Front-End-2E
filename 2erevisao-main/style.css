@@ -1,27 +1,18 @@
-
-/*link para fonte externa*/
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-
-
-/*arquivo root = resetar elementos da página html*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
+    --vermelho-ceep:    #cc0000;
+    --amarelo-ceep: #fcc200;
+    --cinza-claro:  #c0c0c0;
+    --branco-ceep:  #f0f8ff;
+    --texto:    #333;
+}
+
+*{
     margin: 0;
     padding: 0;
-    /*elemento garante que o elemento padding
-     não aumente o tamanho total do elemento*/
     box-sizing: border-box;
 }
 
-.main-header{
-    background-image: url("https://c.tenor.com/pzb_lQRojJYAAAAC/tenor.gif");
-    background-repeat: no-repeat;
-    background-color: rgb(249, 250, 250);
-    width: 100%;
-    padding: 250px 0;
-    box-shadow: 5px 6px 6px 12px rgb(0, 0, 0);
-}
-
-.main-header h1{
-    color: rgb(3, 255, 24);
-
+body{
+    font-family: 'roboto' Arial, Helvetica, sans-serif;
 }
